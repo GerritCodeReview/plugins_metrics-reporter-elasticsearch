@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "00a8152f_3251f662",
+        "filename": "BUILD",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-02-15T21:08:15Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "965435c3_cf92efc8",
+      "range": {
+        "startLine": 11,
+        "startChar": 8,
+        "endLine": 11,
+        "endChar": 30
+      },
+      "revId": "d46f80ad34ecc06584d6301244979c996a5a9048",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dc301716_ab736f9c",
         "filename": "BUILD",
         "patchSetId": 3
@@ -36,6 +60,30 @@
       "writtenOn": "2017-02-15T06:56:18Z",
       "side": 1,
       "message": "You already added them as deps, moved them to exports in metrics_elasticsearch_reporters declaration and remove it here.",
+      "range": {
+        "startLine": 13,
+        "startChar": 8,
+        "endLine": 14,
+        "endChar": 29
+      },
+      "revId": "d46f80ad34ecc06584d6301244979c996a5a9048",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8909a2a5_00047b9d",
+        "filename": "BUILD",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "2017-02-15T21:08:15Z",
+      "side": 1,
+      "message": "Thanks, done.",
+      "parentUuid": "dc301716_ab736f9c",
       "range": {
         "startLine": 13,
         "startChar": 8,

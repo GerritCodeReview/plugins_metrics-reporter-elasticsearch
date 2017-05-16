@@ -3,8 +3,8 @@ load("//tools/bzl:maven_jar.bzl", "maven_jar")
 def external_plugin_deps():
   maven_jar(
     name = 'metrics_elasticsearch_reporters',
-    artifact = 'org.elasticsearch:metrics-elasticsearch-reporter:2.0',
-    sha1 = '399ff7b3378e94be017f475a114227acc41b7b31',
+    artifact = 'org.elasticsearch:metrics-elasticsearch-reporter:2.2.0',
+    sha1 = '85d3e2f0123df56795e5d925ec2c7b4fd2556792',
     deps = [
       '@jackson_databind//jar',
       '@jackson_core//jar',

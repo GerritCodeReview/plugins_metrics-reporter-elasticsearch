@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f1c1500_376029cd",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1021592
+      },
+      "writtenOn": "2017-05-31T21:28:39Z",
+      "side": 1,
+      "message": "LGTM, but I\u0027m not sure what you mean by \"Individual fields in value\". Care to expand a bit?",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 61
+      },
+      "revId": "8aaf5ffa41147927aad6980102a3d18fa29c8a0a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}

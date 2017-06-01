@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1f0ec681_542a8c3b",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1010522
+      },
+      "writtenOn": "2017-06-01T08:01:37Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "41fdbf1b_f1bcebc3",
+      "range": {
+        "startLine": 50,
+        "startChar": 6,
+        "endLine": 50,
+        "endChar": 56
+      },
+      "revId": "b11a1681e4838794b8e69cc91fadc580b68db490",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ddee1692_f102554c",
         "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2017-06-01T00:58:27Z",
       "side": 1,
       "message": "This is only used inside the if-block at L60 and L61, so it can be declared there instead of here.",
+      "range": {
+        "startLine": 57,
+        "startChar": 4,
+        "endLine": 57,
+        "endChar": 10
+      },
+      "revId": "b11a1681e4838794b8e69cc91fadc580b68db490",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "96d2f735_aaae5306",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1010522
+      },
+      "writtenOn": "2017-06-01T08:01:37Z",
+      "side": 1,
+      "message": "Ack\nCopied from Gitiles plugin, and indeed not very clean.",
+      "parentUuid": "ddee1692_f102554c",
       "range": {
         "startLine": 57,
         "startChar": 4,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "6a3832d7_f606b856",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1010522
+      },
+      "writtenOn": "2017-06-01T08:01:37Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "f5c1b480_ecb7e7e4",
+      "range": {
+        "startLine": 63,
+        "startChar": 6,
+        "endLine": 63,
+        "endChar": 15
+      },
+      "revId": "b11a1681e4838794b8e69cc91fadc580b68db490",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "12ea7f48_0a5a1edc",
         "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
         "patchSetId": 1
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "a09f1197_87d8b3fc",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1010522
+      },
+      "writtenOn": "2017-06-01T08:01:37Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "12ea7f48_0a5a1edc",
+      "range": {
+        "startLine": 66,
+        "startChar": 43,
+        "endLine": 66,
+        "endChar": 59
+      },
+      "revId": "b11a1681e4838794b8e69cc91fadc580b68db490",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ecb05b61_50f7585c",
         "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
         "patchSetId": 1
@@ -105,6 +201,30 @@
       "writtenOn": "2017-06-01T00:58:27Z",
       "side": 1,
       "message": "getHostName() ?",
+      "range": {
+        "startLine": 81,
+        "startChar": 38,
+        "endLine": 81,
+        "endChar": 58
+      },
+      "revId": "b11a1681e4838794b8e69cc91fadc580b68db490",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e4e9a06e_96120d40",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1010522
+      },
+      "writtenOn": "2017-06-01T08:01:37Z",
+      "side": 1,
+      "message": "We need the fully qualified host/domain name. GetHostName is not good enough in our case.",
+      "parentUuid": "ecb05b61_50f7585c",
       "range": {
         "startLine": 81,
         "startChar": 38,

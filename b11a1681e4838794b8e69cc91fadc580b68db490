@@ -190,6 +190,29 @@
     },
     {
       "key": {
+        "uuid": "7d731d2f_17aed9d1",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-06-01T08:09:44Z",
+      "side": 1,
+      "message": "Expand this comment as discussed on the change on master.",
+      "range": {
+        "startLine": 67,
+        "startChar": 4,
+        "endLine": 67,
+        "endChar": 60
+      },
+      "revId": "b11a1681e4838794b8e69cc91fadc580b68db490",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ecb05b61_50f7585c",
         "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
         "patchSetId": 1
@@ -225,6 +248,30 @@
       "side": 1,
       "message": "We need the fully qualified host/domain name. GetHostName is not good enough in our case.",
       "parentUuid": "ecb05b61_50f7585c",
+      "range": {
+        "startLine": 81,
+        "startChar": 38,
+        "endLine": 81,
+        "endChar": 58
+      },
+      "revId": "b11a1681e4838794b8e69cc91fadc580b68db490",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dc2d173c_291a981f",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-06-01T08:09:44Z",
+      "side": 1,
+      "message": "OK",
+      "parentUuid": "e4e9a06e_96120d40",
       "range": {
         "startLine": 81,
         "startChar": 38,

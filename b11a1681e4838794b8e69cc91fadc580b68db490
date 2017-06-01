@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "41fdbf1b_f1bcebc3",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-06-01T00:58:27Z",
+      "side": 1,
+      "message": "Instead of throwing these, should we catch and wrap them in a RuntimeException?  See for example in the graphite reporter plugin:\n\nhttps://gerrit.googlesource.com/plugins/metrics-reporter-graphite/+/master/src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritGraphiteReporter.java#78",
+      "range": {
+        "startLine": 50,
+        "startChar": 6,
+        "endLine": 50,
+        "endChar": 56
+      },
+      "revId": "b11a1681e4838794b8e69cc91fadc580b68db490",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ddee1692_f102554c",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-06-01T00:58:27Z",
+      "side": 1,
+      "message": "This is only used inside the if-block at L60 and L61, so it can be declared there instead of here.",
+      "range": {
+        "startLine": 57,
+        "startChar": 4,
+        "endLine": 57,
+        "endChar": 10
+      },
+      "revId": "b11a1681e4838794b8e69cc91fadc580b68db490",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f5c1b480_ecb7e7e4",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-06-01T00:58:27Z",
+      "side": 1,
+      "message": "Not necessary.",
+      "range": {
+        "startLine": 63,
+        "startChar": 6,
+        "endLine": 63,
+        "endChar": 15
+      },
+      "revId": "b11a1681e4838794b8e69cc91fadc580b68db490",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "12ea7f48_0a5a1edc",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-06-01T00:58:27Z",
+      "side": 1,
+      "message": "This creates the hash map with default capacity (16).  Since we know it will only contain one entry, we can create it with the correct capacity:\n\n  new HashMap\u003c\u003e(1);",
+      "range": {
+        "startLine": 66,
+        "startChar": 43,
+        "endLine": 66,
+        "endChar": 59
+      },
+      "revId": "b11a1681e4838794b8e69cc91fadc580b68db490",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ecb05b61_50f7585c",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/metricsreporters/GerritElasticsearchReporter.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2017-06-01T00:58:27Z",
+      "side": 1,
+      "message": "getHostName() ?",
+      "range": {
+        "startLine": 81,
+        "startChar": 38,
+        "endLine": 81,
+        "endChar": 58
+      },
+      "revId": "b11a1681e4838794b8e69cc91fadc580b68db490",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}

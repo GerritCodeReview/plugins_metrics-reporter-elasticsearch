@@ -13,6 +13,7 @@
 // limitations under the License.
 package com.googlesource.gerrit.plugins.metricsreporters;
 
+import com.codahale.metrics.MetricRegistry;
 import com.google.gerrit.common.Nullable;
 import com.google.gerrit.extensions.annotations.Listen;
 import com.google.gerrit.extensions.annotations.PluginName;
@@ -21,25 +22,21 @@ import com.google.gerrit.server.config.CanonicalWebUrl;
 import com.google.gerrit.server.config.PluginConfigFactory;
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
-
-import com.codahale.metrics.MetricRegistry;
-
-import org.eclipse.jgit.lib.Config;
-import org.elasticsearch.metrics.ElasticsearchReporter;
-
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.UnknownHostException;
-import java.util.concurrent.TimeUnit;
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import org.eclipse.jgit.lib.Config;
+import org.elasticsearch.metrics.ElasticsearchReporter;
 
 @Listen
 @Singleton
 public class GerritElasticsearchReporter implements LifecycleListener {
- private final ElasticsearchReporter reporter;
+  private final ElasticsearchReporter reporter;
 
   @Inject
   public GerritElasticsearchReporter(
@@ -50,7 +47,7 @@ public class GerritElasticsearchReporter implements LifecycleListener {
     Config config = configFactory.getGlobalPluginConfig(pluginName);
     String[] hosts = config.getStringList("elasticsearch", null, "host");
     if (hosts.length == 0) {
-        hosts = new String[] { "localhost:9200" };
+      hosts = new String[] {"localhost:9200"};
     }
 
     Map<String, Object> additionalFields = new HashMap<>(1);
@@ -74,10 +71,11 @@ public class GerritElasticsearchReporter implements LifecycleListener {
     }
 
     try {
-      reporter = ElasticsearchReporter.forRegistry(registry)
-          .hosts(hosts)
-          .additionalFields(additionalFields)
-          .build();
+      reporter =
+          ElasticsearchReporter.forRegistry(registry)
+              .hosts(hosts)
+              .additionalFields(additionalFields)
+              .build();
     } catch (IOException e) {
       throw new RuntimeException(e);
     }
